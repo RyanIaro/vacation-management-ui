@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/Background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.title{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.nav a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.list{
+  color: #000;
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.list table{
+  background-color: #fff;
+  border: #000 solid 1px;
+}
+
+.list tr{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list td{
+  padding: 10px;
+}
